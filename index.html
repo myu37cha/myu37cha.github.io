@@ -3,59 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>私のポートフォリオ</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Zen+Maru+Gothic:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- ヘッダー -->
   <header>
-    <h1>★ ポートフォリオサイト ★</h1>
-    <p>制作</p>
+    <div class="header-inner">
+      <h1 class="site-title">Portfolio</h1>
+      <p class="site-sub">Web制作を勉強中です 🌸</p>
+      <nav>
+        <ul>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#works">制作実績</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#about">自己紹介</a></li>
-      <li><a href="#works">制作実績</a></li>
-      <li><a href="#contact">お問い合わせ</a></li>
-    </ul>
-  </nav>
-
+  <!-- 自己紹介 -->
   <section id="about">
-    <h2>自己紹介</h2>
-     <div class="work">
-      <h3>好きな食べ物</h3>
-      <p>説明文：これは私が初めて作ったWebサイトです。</p>
-    </div>
-    <div class="work">
-      <h3>趣味</h3>
-      <p>説明文：練習用に作成したタブ付きページです。</p>
-    </div>
-    <div class="work">
-      <h3>2025年行きたいところ</h3>
-      <p>説明文：練習用に作成したタブ付きページです。</p>
+    <div class="section-inner">
+      <h2 class="section-title">自己紹介 <span class="title-deco">About</span></h2>
+
+      <div class="about-grid">
+
+        <div class="about-card">
+          <div class="about-icon">🎤</div>
+          <h3>趣味</h3>
+          <p>アイドル、アニメ<br>最近はONE PIECEにハマってます！</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">🍝</div>
+          <h3>好きな食べ物</h3>
+          <p>パスタ、ケーキ</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">✈️</div>
+          <h3>2026年行きたいところ</h3>
+          <p class="placeholder">Coming soon...</p>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <section id="works">
-    <h2>制作実績</h2>
-    <div class="work">
-      <h3>作品タイトル1</h3>
-      <p>説明文：これは私が初めて作ったWebサイトです。</p>
-    </div>
-    <div class="work">
-      <h3>作品タイトル2</h3>
-      <p>説明文：練習用に作成したタブ付きページです。</p>
+  <!-- 制作実績 -->
+  <section id="works" class="works-section">
+    <div class="section-inner">
+      <h2 class="section-title">制作実績 <span class="title-deco">Works</span></h2>
+
+      <div class="works-grid">
+
+        <a href="https://myu37cha.github.io/25summer.github.io/" target="_blank" rel="noopener noreferrer" class="work-card">
+          <div class="work-emoji">🎵</div>
+          <div class="work-body">
+            <h3>音楽</h3>
+            <p>気分で音楽を決めてくれるアプリ</p>
+          </div>
+          <span class="work-arrow">→</span>
+        </a>
+
+        <a href="https://myu37cha.github.io/kakeibo/" target="_blank" rel="noopener noreferrer" class="work-card">
+          <div class="work-emoji">💰</div>
+          <div class="work-body">
+            <h3>家計簿</h3>
+            <p>ズボラさんでも簡単に使える家計簿アプリ</p>
+          </div>
+          <span class="work-arrow">→</span>
+        </a>
+
+        <a href="https://myu37cha.github.io/cafe-nagoya/" target="_blank" rel="noopener noreferrer" class="work-card">
+          <div class="work-emoji">☕</div>
+          <div class="work-body">
+            <h3>名古屋カフェ</h3>
+            <p>カフェ巡りまとめ</p>
+          </div>
+          <span class="work-arrow">→</span>
+        </a>
+
+      </div>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>お問い合わせ</h2>
-    <p>ご連絡は以下のメールアドレスまでお願いいたします。</p>
-    <p><a href="mailto:example@example.com">example@example.com</a></p>
-  </section>
-
+  <!-- フッター -->
   <footer>
-    <p>&copy; 2025 山田 太郎</p>
+    <p>&copy; 2025 ゼミ</p>
   </footer>
+
 </body>
 </html>
